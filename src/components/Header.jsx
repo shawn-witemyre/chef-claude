@@ -2,13 +2,13 @@ import chefClaudeLogo from "/src/images/chef-claude-icon.png";
 
 export default function Header() {
   return (
-    <header class="header">
+    <header>
       <img
         src={chefClaudeLogo}
         alt="image of chef claude"
-        class="header-image"
+        className="header-image"
       />
-      <h1 class="header-title">Chef Claude</h1>
+      <h1 className="header-title">Chef Claude</h1>
     </header>
   );
 }
